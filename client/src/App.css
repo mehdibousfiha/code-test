@@ -1,0 +1,22 @@
+h1 {
+    font: 72px "Oswald", Arial, sans-serif;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.container {
+    margin: 10%;
+    width: 50%;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 65%;
+    }
+}
